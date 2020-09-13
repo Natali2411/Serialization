@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Serialize
 {
     [Serializable]
-    class StudentInfoclass
+    public class StudentInfo
     {
     public string Name, Address, CourseInfo;
     public int ID; 
